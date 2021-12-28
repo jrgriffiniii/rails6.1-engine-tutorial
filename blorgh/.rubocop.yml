@@ -3,3 +3,7 @@ inherit_gem:
 
 AllCops:
   TargetRubyVersion: 2.7
+
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/requests/blorgh/articles_spec.rb'
